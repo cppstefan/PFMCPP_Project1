@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       clock
+//  action 1:   set the hour
+clock.setHour();
+//  action 2:   set the minutes
+clock.setMinute()
+//  action 3:   set the Time zone
+clock.setTimezone();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       speaker
+//  action 1:   turn the volume up
+speaker.volumeUp();
+//  action 2:   turn the volume down
+speaker.volumeDown();
+//  action 3:   connect the speaker
+speaker.connect();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       folder
+//  action 1:   create the folder
+folder.create();
+//  action 2:   open the folder
+folder.open();
+//  action 3:   close the folder
+folder.close();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       track
+//  action 1:   play the music track
+track.play();
+//  action 2:   pause the music track
+track.pause();
+//  action 3:   stop the music track
+track.stop();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       vehicle
+//  action 1:   move the vehicle forward
+vehicle.moveForward();
+//  action 2:   move the vehicle backward
+vehicle.moveBackward();
+//  action 3:   turn the vehicle left
+vehicle.turnLeft();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       text
+//  action 1:   copies the text
+text.copy();
+//  action 2:   pastes the text
+text.paste();
+//  action 3:   removes the text
+text.remove();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       player
+//  action 1:   player runs
+player.run();
+//  action 2:   player crawls
+player.crawl();
+//  action 3:   player jumps
+player.jump();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       drone
+//  action 1:   the drone takes off
+drone.takeOff();
+//  action 2:   the drone lands
+drone.land(); 
+//  action 3:   the drone follows
+drone.follow();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       window
+//  action 1:   hides the window
+window.hide();
+//  action 2:   makes the window visible
+window.visible();
+//  action 3:   changes size of window
+window.changeSize();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       waveform
+//  action 1:   compresses the waveform
+waveform.compress();
+//  action 2:   filters the waveform
+waveform.filter();
+//  action 3:   modulate the waveform
+waveform.modulate();
 
 
 #endif

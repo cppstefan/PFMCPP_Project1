@@ -108,28 +108,28 @@ waveform.filter();
 waveform.modulate();
 //  8)
 //  Noun:       antenna
-//  action 1:   the antenna transmits
-antenna.transmit();
-//  action 2:   the antenna receives
-antenna.receive();
-//  action 3:   the antenna calibrates
-antenna.calibrate();
+//  action 1:   the antenna rotates horizontally
+antenna.rotateHorizontally();
+//  action 2:   the antenna rotates vertically
+antenna.rotateVertically();
+//  action 3:   the antenna measures radiation
+antenna.measureRadiation();
 //  9)
-//  Noun:       student
-//  action 1:   the student writes
-student.write();
-//  action 2:   the student reads
-student.read();
-//  action 3:   the student rehearses
-student.rehearse();
+//  Noun:       computer
+//  action 1:   the computer records video
+computer.recordVideo();
+//  action 2:   the computer plays music
+computer.playMusic();
+//  action 3:   the computer opens folder
+computer.openFolder();
 //  10)
-//  Noun:       track
-//  action 1:   the track plays
-track.play();
-//  action 2:   the track pauses
-track.pause();
-//  action 3:   the track stops
-track.stop();
+//  Noun:       airplane
+//  action 1:   the airplane takes off
+airplane.takesOff();
+//  action 2:   the airplane initiates landing
+airplane.initiateLanding();
+//  action 3:   the airplane opens the Cabin door
+airplane.openCabinDoor();
 
 
 #endif

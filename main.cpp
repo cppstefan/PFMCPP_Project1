@@ -107,13 +107,13 @@ waveform.filter();
 //  action 3:   the waveform gets modulated
 waveform.modulate();
 //  8)
-//  Noun:       antenna
-//  action 1:   the antenna rotates horizontally
-antenna.rotateHorizontally();
-//  action 2:   the antenna rotates vertically
-antenna.rotateVertically();
-//  action 3:   the antenna measures radiation
-antenna.measureRadiation();
+//  Noun:       Radio Antenna
+//  action 1:   the radio antenna rotates horizontally
+radioAntenna.rotateHorizontally();
+//  action 2:   the radio antenna rotates vertically
+radioAntenna.rotateVertically();
+//  action 3:   the radio antenna measures radiation
+radioAntenna.measureRadiation();
 //  9)
 //  Noun:       computer
 //  action 1:   the computer records video

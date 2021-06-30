@@ -53,59 +53,59 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 //  1)
 //  Noun:       clock
-//  action 1:   set the hour
+//  action 1:   the clocks hour gets set
 clock.setHour();
-//  action 2:   set the minutes
+//  action 2:   the clocks minute gets set
 clock.setMinute()
-//  action 3:   set the Time zone
+//  action 3:   the clocks timezone gets set
 clock.setTimezone();
 //  2)
 //  Noun:       speaker
-//  action 1:   turn the volume up
-speaker.volumeUp();
-//  action 2:   turn the volume down
-speaker.volumeDown();
-//  action 3:   connect the speaker
+//  action 1:   the speakers volume turns up
+speaker.turnVolumeUp();
+//  action 2:   the speakers volume turns down
+speaker.turnVolumeDown();
+//  action 3:   the speaker connects
 speaker.connect();
 //  3)
 //  Noun:       folder
-//  action 1:   create the folder
+//  action 1:   the folder is created
 folder.create();
-//  action 2:   open the folder
+//  action 2:   the folder opens
 folder.open();
-//  action 3:   close the folder
+//  action 3:   the folder closes
 folder.close();
 //  4)
 //  Noun:       track
-//  action 1:   play the music track
+//  action 1:   the track plays
 track.play();
-//  action 2:   pause the music track
+//  action 2:   the track pauses
 track.pause();
-//  action 3:   stop the music track
+//  action 3:   the track stops
 track.stop();
 //  5)
 //  Noun:       vehicle
-//  action 1:   move the vehicle forward
+//  action 1:   the vehicle moves forward
 vehicle.moveForward();
-//  action 2:   move the vehicle backward
+//  action 2:   the vehicle moves backward
 vehicle.moveBackward();
-//  action 3:   turn the vehicle left
+//  action 3:   the vehicle turns left
 vehicle.turnLeft();
 //  6)
 //  Noun:       text
-//  action 1:   copies the text
+//  action 1:   the text gets copied
 text.copy();
-//  action 2:   pastes the text
+//  action 2:   the text gets pasted
 text.paste();
-//  action 3:   removes the text
+//  action 3:   the text gets removed
 text.remove();
 //  7)
 //  Noun:       player
-//  action 1:   player runs
+//  action 1:   the player runs
 player.run();
-//  action 2:   player crawls
+//  action 2:   the player crawls
 player.crawl();
-//  action 3:   player jumps
+//  action 3:   the player jumps
 player.jump();
 //  8)
 //  Noun:       drone
@@ -117,19 +117,19 @@ drone.land();
 drone.follow();
 //  9)
 //  Noun:       window
-//  action 1:   hides the window
+//  action 1:   the window hides
 window.hide();
-//  action 2:   makes the window visible
-window.visible();
-//  action 3:   changes size of window
+//  action 2:   the window shows
+window.show();
+//  action 3:   the window changes size
 window.changeSize();
 //  10)
 //  Noun:       waveform
-//  action 1:   compresses the waveform
+//  action 1:   the waveform gets compressed
 waveform.compress();
-//  action 2:   filters the waveform
+//  action 2:   the waveform gets filtered
 waveform.filter();
-//  action 3:   modulate the waveform
+//  action 3:   the waveform gets modulated
 waveform.modulate();
 
 

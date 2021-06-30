@@ -51,86 +51,85 @@ arm.flex();                             // 3)
 arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
-//  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       player
+//  action 1:   the player runs
+player.run();
+//  action 2:   the player walks
+player.walk();
+//  action 3:   the player jumps
+player.jump();
 //  2)
+//  Noun:       vehicle
+//  action 1:   the vehicle moves forward
+vehicle.moveForward();
+//  action 2:   the vehicle moves backward
+vehicle.moveBackward();
+//  action 3:   the vehicle turns left
+vehicle.turnLeft();
+//  3)          window
 //  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
-//  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  action 1:   the window hides
+window.hide();
+//  action 2:   the window shows
+window.show();
+//  action 3:   the window changes size
+window.changeSize();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       speaker
+//  action 1:   the speakers volume increases
+speaker.volumeIncrease();
+//  action 2:   the speakers volume decreases
+speaker.volumeDecrease();
+//  action 3:   the speaker connects
+speaker.connect();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       phone
+//  action 1:   the phone rings
+phone.ring();
+//  action 2:   the phone sleeps
+phone.sleep();
+//  action 3:   the phone activates
+phone.activate();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       camera
+//  action 1:   the camera records
+camera.record();
+//  action 2:   the camera tilts up
+camera.tiltUp();
+//  action 3:   the camera tilts down
+camera.tiltDown(); 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       waveform
+//  action 1:   the waveform gets compressed
+waveform.compress();
+//  action 2:   the waveform gets filtered
+waveform.filter();
+//  action 3:   the waveform gets modulated
+waveform.modulate();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       antenna
+//  action 1:   the antenna transmits
+antenna.transmit();
+//  action 2:   the antenna receives
+antenna.receive();
+//  action 3:   the antenna calibrates
+antenna.calibrate();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       student
+//  action 1:   the student writes
+student.write();
+//  action 2:   the student reads
+student.read();
+//  action 3:   the student rehearses
+student.rehearse();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       track
+//  action 1:   the track plays
+track.play();
+//  action 2:   the track pauses
+track.pause();
+//  action 3:   the track stops
+track.stop();
 
 
 #endif
